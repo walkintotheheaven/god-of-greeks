@@ -1,0 +1,1222 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Capriola&family=EB+Garamond:wght@600;800&family=Hammersmith+One&family=Josefin+Sans:wght@500;600&family=Jost&family=Kanit&family=Lustria&family=Marcellus+SC&family=Overpass&family=Philosopher&display=swap');
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-SemiBold.ttf );
+}
+
+@font-face {
+    font-family: 'CinzelB';
+    src: url(font/Cinzel-Bold.otf );
+}
+
+@font-face {
+    font-family: 'Optimus';
+    src: url(font/OptimusPrinceps.ttf );
+}
+
+@font-face {
+    font-family: 'Magazine';
+    src: url(font/Magazine-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Le Marino';
+    src: url(font/TT\ Moons\ Trial\ Bold\ Italic.otf);
+}
+
+@font-face {
+    font-family: 'Night';
+    src: url(font/Night\ Zone.otf);
+}
+
+@font-face {
+    font-family: 'Eden';
+    src: url(font/Edensor-Free.otf);
+}
+
+@font-face {
+    font-family: 'Rasputin';
+    src: url(font/Rasputin.otf);
+}
+
+@font-face {
+    font-family: 'Retro';
+    src: url(font/Retroica.ttf);
+}
+
+@font-face {
+    font-family: 'TT';
+    src: url(font/TT\ Moons\ Trial\ Bold.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1149.ani), url(https://ani.cursors-4u.net/cursors/cur-13/cur1149.png), auto !important;
+}
+
+body{
+    /* background-image: url(img/bg0.jpg) ;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center; */
+    background-color: #010B13 ;
+    min-height: 200vh;
+}
+
+/* sementara */
+/* section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* sementara */
+    /* background-color: gainsboro; */
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1000;
+    /* background-color: #010B13; */
+    /* sementara */
+    /* box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.2); */
+}
+
+header .logo{
+    position: relative;
+    font-size: 1.4em;
+    font-family: 'Marcellus SC', serif;
+    color: #b57bee;
+    padding-left: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+    margin-right: 5px;
+}
+
+header .navbar li{
+    list-style: none;
+    font-size: 1em;    
+}
+
+header .navbar li a{
+    display: inline-block;
+    padding: 15px 30px;
+    color: gainsboro;
+    text-decoration: none;
+    transition: all 0.3s 0.2s ease;
+    border-radius: 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* ini adalah var a */
+
+header .navbar li .a::before{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 4px;
+    background: rgb(132, 16, 185);
+    bottom: 0;
+    border-radius: 4px;
+    transition: all 0.4s cubic-bezier(0.82, 0.02, 0.13, 1.26);
+}
+
+header .navbar li .a:hover::before{
+    width: 40px;
+}
+
+/* ini adalah var b */
+
+header .navbar li .b::before{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 4px;
+    background: #F5458E;
+    bottom: 0;
+    border-radius: 4px;
+    transition: all 0.4s cubic-bezier(0.82, 0.02, 0.13, 1.26);
+}
+
+header .navbar li .b:hover::before{
+    width: 77px;
+}
+
+/* ini adalah var c */
+
+header .navbar li .c::before{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 4px;
+    background: #430FD4;    
+    bottom: 0;
+    border-radius: 4px;
+    transition: all 0.4s cubic-bezier(0.82, 0.02, 0.13, 1.26);
+}
+
+header .navbar li .c:hover::before{
+    width: 67px;
+}
+
+/* ini adalah var d */
+
+header .navbar li .d::before{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 4px;
+    background: #ecce08;
+    bottom: 0;
+    border-radius: 4px;
+    transition: all 0.4s cubic-bezier(0.82, 0.02, 0.13, 1.26);
+}
+
+header .navbar li .d:hover::before{
+    width: 30px;
+}
+
+/* ini adalah var e */
+
+header .navbar li .e::before{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 4px;
+    background:#07f01a;
+    bottom: 0;
+    border-radius: 4px;
+    transition: all 0.4s cubic-bezier(0.82, 0.02, 0.13, 1.26);
+}
+
+header .navbar li .e:hover::before{
+    width: 55px;
+}
+
+
+
+header .navbar li a:hover{
+    color: #E5E4E2  ;
+    font-weight: bolder;
+}
+
+
+.pict img{
+    top: 1vh;
+    margin-left: 150px;
+    width: 800px;
+    position: relative;
+}
+
+.home{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}               
+
+.up{
+    position: relative;
+    width: 100%;
+    padding: 210px 50px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    align-items: center;    
+    /* background-color: gainsboro; */
+
+}
+
+.up .fall{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;  
+}
+
+.up .fall .content{
+    width: 50%;
+    height: 100%;
+    margin-top: 80px;
+    float: left;
+    position: absolute;
+}
+
+.up .fall .content h2{
+    font-size: 5em;
+    font-family: 'Retro';
+    text-transform: uppercase;
+    margin-top: 30px;
+    background: -webkit-linear-gradient(1400deg,#0f4efc, #EFDECD) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: white;
+    letter-spacing: 2px;
+}
+
+button{
+    background: #FFFFFF;
+    border-radius: 40px;
+    box-shadow: #fff 0 5px 20px -10px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 25px;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-top: 20px;
+}
+
+.for-login button:hover{
+    background-color: #7B68EE;
+    box-shadow: #7B68EE 0 5px 20px -10px;
+    transition: 0.4s;
+    color: white;
+}
+
+.up .fall .content p{
+    font-size: 1em;
+    color: lightslategrey;
+    letter-spacing: 1px;
+}
+
+.omg{
+    float: right;
+    position: relative;
+    width: 29.6%;
+}
+
+aside img{
+    width: 340px;
+}
+
+.bmjir{
+    width: 100%;
+    overflow: visible;
+
+}
+
+/* .about{
+
+} */
+
+/* SECTION 1 : MIDDLE */
+
+
+.middle{
+    position: relative;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.middle .zeus{
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    position: relative; 
+}
+
+.middle .zeus .thunder img{
+    width: 190px;
+    float: left;
+    position: relative;
+}
+
+.middle .zeus .thunder-bolt{
+    width: 95%;
+    position: relative;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.middle .zeus .thunder-bolt h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+}
+
+.middle .zeus .thunder-bolt p{
+    font-size: 2em;
+    position: relative;
+    font-family: 'Eden';
+    padding-left: 10px;
+    bottom: 5px;
+    display: inline;
+}
+
+.middle .zeus .thunder-bolt article{
+    padding-top: 10px;
+    padding-right: 10%;
+}
+
+
+.middle .poseidon{
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.middle .poseidon .sea img{
+    width: 220px;
+    float: right;
+    position: relative;
+}
+
+.middle .poseidon .god-of-sea{
+    width: 95%;
+    position: relative;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.middle .poseidon .god-of-sea h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+
+}
+
+.middle .poseidon .god-of-sea p{
+    font-size: 2em;
+    position: relative;
+    font-family: 'Eden';
+    padding-right: 10px;
+    bottom: 5px;
+    display: inline;
+}
+
+.middle .poseidon .god-of-sea article{
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+/* SECTION 2 : VILLAIN */
+
+.villain{
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.villain .hades{
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.villain .hades .dead{
+    margin-left: 20px;
+}
+
+.villain .hades .dead img{
+    width: 165px;
+    margin-top: 15px;
+    float: left;
+}
+
+.villain .hades .orientation{
+    width: 95%;
+    position: relative;
+    padding-top: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.villain .hades .orientation h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+}
+
+.villain .hades .orientation p{
+    font-size: 2em;
+    font-family: 'Eden';
+    padding-left: 10px;
+    position: relative;
+    display: inline;
+    bottom: 5px;
+}
+
+.villain .hades .orientation article{
+    padding-top: 10px;
+    padding-right: 10%;
+}
+
+
+.villain .hera{
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.villain .hera .marry img{
+    width: 215px;
+    float: right;
+    position: relative;
+}
+
+.villain .hera .wife{
+    width: 95%;
+    right: 10px;
+    position: relative;
+    padding-top: 20px;
+    text-align: right;
+}
+
+
+.villain .hera .wife h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+
+}
+
+.villain .hera .wife p{
+    font-size: 2em;
+    position: relative;
+    font-family: 'Eden';
+    padding-right: 10px;
+    bottom: 5px;
+    display: inline;
+}
+
+.villain .hera .wife article{
+    padding-top: 10px;
+    padding-left: 10%;
+
+}
+
+/* SECTION 3 : HERO */
+
+.hero{
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.hero .hestia{
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.hero .hestia .fire img{
+    width: 170px;
+    position: relative;
+    padding-top: 20px;
+    float: left;
+}
+
+.hero .hestia .orientation{
+    width: 95%;
+    position: relative;
+    padding-top: 20px;
+    left: 30px;
+    text-align: left;
+}
+
+.hero .hestia .orientation h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+}
+
+.hero .hestia .orientation p{
+    font-size: 2em;
+    font-family: 'Eden';
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    padding-left: 10px;
+}
+
+.hero .hestia .orientation article{
+    padding-top: 10px;
+    padding-right: 10%;
+}
+
+.hero .demeter{
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.hero .demeter .culture img{
+    width: 180px;
+    padding-top: 20px;
+    margin-right: 20px;
+     float: right;
+}
+
+.hero .demeter .hades-wife{
+    width: 95%;
+    position: relative;
+    padding-top: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+.hero .demeter .hades-wife p{
+    font-family: 'Eden';
+    font-size: 2em;
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    padding-right: 10px;
+}
+
+.hero .demeter .hades-wife h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color:#7B68EE;
+}
+
+.hero .demeter .hades-wife article{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+/* SECTION 4 : GREEK */
+
+.greek{
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.greek .apollo{
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.greek .apollo .bow img{
+    width: 180px;
+    float: left;
+}
+
+.greek .apollo .phoenix{
+    width: 95%;
+    position: relative;
+    padding-top: 20px;
+    left: 18px;
+    text-align: left;
+}
+
+.greek .apollo .phoenix h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+}
+
+.greek .apollo .phoenix p{
+    font-size: 2em;
+    font-family: 'Eden';
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    padding-left: 10px;
+}
+
+.greek .apollo .phoenix article{
+    padding-top: 10px;
+    padding-right: 10%;
+}
+
+.greek .artemis{
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.greek .artemis .moon img{
+    width: 190px;
+    padding-top: 10px;
+    float: right;
+}
+
+.greek .artemis .gyu{
+    width: 95%;
+    position: relative;
+    text-align: right;
+    padding-top: 20px;
+    right: 30px;
+}
+
+.greek .artemis .gyu p{
+    font-size: 2em;
+    font-family: 'Eden';
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    padding-right: 10px;
+}
+
+.greek .artemis .gyu h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+}
+
+.greek .artemis .gyu article{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+/* SECTION 5 : ROMAN */
+
+.roman{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    flex-direction: column;
+}
+
+.roman .athena{
+    width: 100%;
+    height: 50vh;
+    background-color:gainsboro;
+    position: relative;
+}
+
+.roman .athena .vanhelsing img{
+    width: 185px;
+    float: left;
+    padding-top: 5px;
+}
+
+.roman .athena .war{
+    width: 95%;
+    position: relative;
+    padding-top: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.roman .athena .war h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+}
+
+.roman .athena .war p{
+    font-size: 2em;
+    font-family: 'Eden';
+    position: relative;
+    display: inline;
+    bottom: 5px;
+    padding-left: 10px;
+}
+
+.roman .athena .war article{
+    padding-top: 10px;
+    padding-right: 10%;
+}
+
+.roman .ares{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+}
+
+.roman .ares .god-of-war img{
+    width: 195px;
+    float: right;
+    margin-right: 15px;
+}
+
+.roman .ares .handsome{
+    position: relative;
+    width: 95%;
+    padding-top: 20px;
+    right: 10px;
+    text-align: right;
+}
+
+.roman .ares .handsome p{
+    font-size: 2em;
+    font-family: 'Eden';
+    display: inline;
+    padding-right: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.roman .ares .handsome h2{
+    font-family: 'CinzelB';
+    font-size: 3em;
+    display: inline;
+    color: #7B68EE;
+}
+
+.roman .ares .handsome article{
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+/* SECTION 6 : GODDESS */
+
+.goddess{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    flex-direction: column;
+}
+
+.goddess .aphrodite{
+    width: 100%;
+    height: 50vh;
+    background-color:gainsboro;
+    position: relative;
+}
+
+.goddess .aphrodite .venus img{
+    width: 180px;
+    float: left;
+    padding-top: 10px;
+}
+
+.goddess .aphrodite .love{
+    width: 95%;
+    position: relative;
+    padding-top: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.goddess .aphrodite .love h2{
+    font-size: 3em;
+    font-family: 'CinzelB';
+    display: inline;
+    color: #7B68EE;
+}
+
+.goddess .aphrodite .love p{
+    font-size: 2em;
+    font-family: 'Eden';
+    position: relative;
+    display: inline;
+    bottom: 5px;
+    padding-left: 10px;
+}
+
+.goddess .aphrodite .love article{
+    padding-top: 10px;
+    padding-right: 10%;
+}
+
+.goddess .hermes{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+}
+
+.goddess .hermes .speed img{
+    width: 190px;
+    float: right;
+    margin-right: 15px;
+}
+
+.goddess .hermes .last{
+    position: relative;
+    width: 95%;
+    padding-top: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+.goddess .hermes .last p{
+    font-size: 2em;
+    font-family: 'Eden';
+    display: inline;
+    padding-right: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.goddess .hermes .last h2{
+    font-family: 'CinzelB';
+    font-size: 3em;
+    display: inline;
+    color:#7B68EE;
+}
+
+.goddess .hermes .last article{
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 10px;
+}
+
+footer .container{
+    background-color: rgb(43, 42, 42);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+
+.footerism{
+    list-style: none;
+}
+
+.footerism h4{
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    text-transform:uppercase;
+    font-size: 25px;
+    position: relative;
+}
+
+.footerism h4::before{
+    content: '';
+    width: 101px;
+    height: 2px;
+    position: absolute;
+    background-color: #b57bee;
+    bottom: -10px;
+}
+
+.footerism ul li{
+    padding: 10px 0;
+    list-style: none;
+}
+
+.footerism ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.footerism ul li a:hover{
+    opacity: 1;
+}
+
+
+.mid ul{
+    list-style: none;
+}
+
+.mid h4{
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    text-transform:uppercase;
+    font-size: 25px;
+    position: relative;
+}
+
+.mid h4::before{
+    content: '';
+    width: 62px;
+    height: 2px;
+    position: absolute;
+    background-color: #b57bee;
+    bottom: -10px;
+}
+
+.mid ul li{
+    padding: 12px 0;
+}
+
+.mid ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.mid ul li a:hover{
+    opacity: 1;
+}
+
+.end h4{
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    text-transform:uppercase;
+    font-size: 25px;
+    position: relative;
+}
+
+.end h4::before{
+    content: '';
+    width: 74px;
+    height: 2px;
+    position: absolute;
+    background-color:#b57bee;
+    bottom: -10px;
+}
+
+.end input{
+    border: none;
+    width: 250px;
+    height: 45px;
+    display: block;
+    border-radius: 0px 3px 30px 0;
+    padding-left: 20px;
+    margin: 14px 0;
+}
+
+.end .inputSubmit{
+    padding: 0px;
+    border-radius: 30px;
+    background-color:#870fff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.end .inputSubmit:hover{
+    background-color: rgb(52, 185, 247);
+    transition: 0.5s;
+    color: rgb(12, 11, 11);
+}
+
+.col p{
+    color: white;
+}
+
+.row hr{
+    opacity: 0.7;
+}
+
+/* FACEBOOK */
+.row .socialIcon .facebook-icon{
+    display: inline-block;
+    color: #3b5598;
+    font-size: 20px;
+    font-family:'Signika', sans-serif;;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+.row .socialIcon .facebook-icon:hover{
+    color: gainsboro;
+}
+
+/* INSTAGRAM */
+.row .socialIcon .instagram-icon{
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(#515bd4, #8134af, #dd2a7b, #feda77, #f58529);
+    -webkit-background-clip: text;
+    font-size: 20px;
+    font-family:'Signika', sans-serif;;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+.row .socialIcon .instagram-icon:hover{
+    color: gainsboro;
+}
+
+/* TWITTER */
+.row .socialIcon .twitter-icon{
+    display: inline-block;
+    color: #00acee;
+    font-size: 20px;
+    font-family:'Signika', sans-serif;;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+.row .socialIcon .twitter-icon:hover{
+    color: gainsboro;
+}
+
+/* DISCORD */
+.row .socialIcon .discord-icon{
+    display: inline-block;
+    color: #7289d7;
+    font-size: 20px;
+    font-family:'Signika', sans-serif;;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+.row .socialIcon .discord-icon:hover{
+    color: gainsboro;
+}
+
+/* WHATSAPP */
+.row .socialIcon .whatsapp-icon{
+    display: inline-block;
+    color: #25d366;
+    font-size: 20px;
+    font-family:'Signika', sans-serif;;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+.row .socialIcon .whatsapp-icon:hover{
+    color: gainsboro;
+}
+
+
+ 
+
+/*
+
+.hero .demeter .hades-wife article{
+    padding-top: 10px;
+    padding-left: 10%;
+}  */
+
+/* 
+.middle .zeus {
+    width: 100%;
+    height: 50%;
+    background-color: gainsboro;
+    position: relative;
+
+}
+
+.middle .zeus aside img{
+    width: 18%;
+    float: left;
+    
+}
+
+.middle .zeus .thunder-bolt{
+    position: relative;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.middle .zeus .thunder-bolt h2{
+    position: relative;
+    font-size: 3em;
+    font-weight: 500px;
+    top: 7px;
+    display: inline;
+    font-family: 'CinzelB';
+}
+
+.middle .zeus .thunder-bolt span{
+    font-size: 2em;
+    font-weight: 300px;
+    position: relative;
+    font-family: 'Eden';
+    margin-left: 10px;
+}
+
+.middle .zeus .god-of-sea article{
+    margin-top: 100px;
+}
+
+.middle .poseidon{
+    background-color: #07f01a;
+    width: 100%;
+    height: 50%;
+    position: relative;
+}   
+
+.middle .poseidon aside img{
+    width: 20%;
+    float: right;
+}
+
+.middle .poseidon .god-of-sea{
+    position: relative;
+    text-align: right;
+    justify-content: space-between;
+}
+
+.middle .poseidon .god-of-sea h2{
+    font-family: 'CinzelB';
+    position: relative;
+    font-size: 3em;
+    font-weight: 500px;
+    padding-top: 20px;
+    top: 7px;
+    display: inline;    
+}
+
+.middle .poseidon .god-of-sea span{
+    font-size: 2em;
+    font-weight: 300px;
+    position: relative;
+    font-family: 'Eden';
+    margin-right: 10px;
+}
+
+
+.middle .zeus .god-of-sea article{
+    display: flex;  
+
+
+}
+ */
